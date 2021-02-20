@@ -3,8 +3,8 @@
 This project provides an option to user for Registration and view employee List.
 
 # Prerequisite 
-NPM must be installed
-angular-cli latest version must be installed
+1. npm must be installed
+2. angular-cli latest version must be installed
 
 # Steps to follow to run and use the Project
 
