@@ -1,27 +1,20 @@
 # EmployeePortal
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.0.
+This project provides an option to user for Registration and view employee List.
 
-## Development server
+# Prerequisite 
+NPM must be installed
+angular-cli latest version must be installed
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Steps to follow to run and use the Project
 
-## Code scaffolding
+1. Checkout the project
+2. Run npm install  [to install the packages]
+3. Run ng serve  [to start the server ]
+4. go to url http://localhost:4200/ home page which displays 2 options
+ Registration and View Employee List
+5. click on Registration Page to register the Employees with mandatory firstName and LastName.
+6. click on View Employee List
+By default 2 employees will be listed in sorted order with first name. If you want to add more you can add the employee submitting registration form .
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
