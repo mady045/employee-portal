@@ -1,0 +1,25 @@
+.formContainer{
+    background-color: cadetblue;
+    box-shadow: 2px 10px 18px;
+}
+#genderselection *
+{
+    padding: 15px 10px;
+    min-height: 2em;
+}
+.inCenter{
+    text-align: center;
+}
+.formContainer{
+    margin-top:30px;
+    width:450px;
+}
+form{
+    margin-bottom: 15px;
+}
+.ng-valid[required]  {
+    border-left: 5px solid #42A948; 
+  }
+.ng-invalid:not(form)  {
+    border-left: 5px solid #a94442;
+  }

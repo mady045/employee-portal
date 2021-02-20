@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background: url(./assets/office_work.jpg) no-repeat center center;
+}
+.homepage{
+    display: flex;
+    justify-content: center;
+}
+
+td, th {
+    padding: 10px;
+}
+.mLeft{
+    margin-left: 20px;
+}
+.mtop{
+    margin-top:20px;
+}
+.btnCommon{
+    margin-top: 20px;
+    border-radius: 0px;
+    padding: 15px 35px;
+    font-size: 15px;
+
+}

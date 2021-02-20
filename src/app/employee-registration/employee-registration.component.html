@@ -1,0 +1,44 @@
+
+<div >
+    <div class="container formContainer">
+        <h1 class="inCenter">Registration Form</h1>
+        <form [formGroup]="registerForm">
+            <div class="form-group">
+                <label>First Name</label>
+                <input type="text" class="form-control" formControlName="firstName" id="firstName" required>
+                <p *ngIf="registerForm.controls.firstName.errors" class="alert alert-danger">This field is required!</p>
+            </div>
+            <div class="form-group">
+                <label>Last Name</label>
+                <input type="text" class="form-control" formControlName="lastName" id ="lastName" required>
+                <p *ngIf="registerForm.controls.lastName.errors" class="alert alert-danger">This field is required!</p>
+            </div>
+            <div class="form-group">
+                <label>Gender</label>
+                    <select id="genderselection" class="form-control" formControlName="gender" required>  
+                        <option>Select</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Others</option>
+                    </select>
+            </div>
+            <div class="form-group">
+                <label>Date Of Birth</label>
+                <input type="date" class="form-control" formControlName="dob" required>
+            </div>
+            <div class="form-group">
+                <label>Department</label>
+                <select id="department" class="form-control" formControlName="departmentName" required> 
+                    <option>Select</option>
+                    <option>Accounting and Finance</option>
+                    <option>Human Resource Management</option>
+                    <option>Marketing</option>
+                    <option>Research and Development</option>
+                    <option>Production</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary" (click)="SaveData()">Submit</button>
+            <input type="button" class="btn btn-primary mLeft" (click)="Cancel()" value="Cancel" />
+        </form>
+    </div>
+    </div>
